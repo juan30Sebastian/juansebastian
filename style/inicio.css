@@ -1,0 +1,203 @@
+body {
+background-color: #252850;
+}
+#poster {
+    background-image: linear-gradient(transparent, black);
+    border: 0;
+}
+#juan {
+    margin-left: 280px;
+}
+#nombre-juan {
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+}
+#descripcion {
+    text-align: center;
+    color: salmon;
+}
+#biografia {
+    background-color: #252850;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    height: 50px;
+    width: 250px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 430px;
+}
+#biografia:hover {
+    background-color: black;
+    border-width: 5px;
+    border-style: solid;
+    border-color: salmon;
+}
+
+
+
+
+
+
+
+
+
+
+.container {
+    width: 85%;
+    max-width: 1550px;
+    margin: 0 auto;
+}
+.header {
+    background: #252850;
+    color: white;
+    padding: 2rem 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+.header a {
+    color: white;
+    text-decoration: none;
+}
+.logo-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo {
+    font-size: 1.3rem;
+}
+.icono {
+    display: none;    
+}
+.icono img {
+    width: 40px;
+    margin-right: 15px;
+}
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navigation ul li {
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: salmon;
+}
+.navigation ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: 0.6s;
+}
+.navigation ul li a:hover {
+    background-color: #252850;
+    border-radius: 15px;
+}
+.main {
+    padding-top: 8rem;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+    padding: 4rem 0;
+}
+.navigation-footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navigation-footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: black;
+}
+.navigation ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: 0.6s;
+}
+.footera {
+    color: white;
+    text-decoration: none;
+}
+.footer img {
+    height: 50px;
+    width: 50px;
+}
+.footer a {
+    color: white;
+    text-align: center;
+}
+#whatsap {
+    height: 80px;
+    width: 80px;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+}
+@media only screen and (max-width: 767px) {
+    #juan {
+        height: 400px;
+        margin-left: 100px;
+    }
+    #nombre-juan {
+        font-size: 2rem;
+    }
+    #descripcion {
+        font-size: 10px;
+    }
+    #biografia {
+        height: 30px;
+        width: 150px;
+        margin-left: 190px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .icono{
+        display: block;
+        cursor: pointer;
+    }
+    .navigation ul{
+        display: none;
+    }
+    .navigation {
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .navigation ul.show {
+        display: block;
+    }
+    .navigation ul li {
+        display: block;
+    }
+    .navigatio ul li a {
+        display: block;
+        padding: 0.5rem 1rem;
+        transition: all 0.6s linear;
+    }
+    .navigation ul li a:hover {
+ background-color: #252850;
+ border-radius: 10px;
+        color: white;
+}
+    .main {
+        padding-top: 5rem;
+    }
+}
