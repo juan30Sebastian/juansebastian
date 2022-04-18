@@ -1,5 +1,3 @@
-alert("HOLA MUNDO")
-
 function menu(){
  document.querySelector(".navigation ul").style.display = "block";
 }
